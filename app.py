@@ -40,10 +40,6 @@ feature_cols = [
     'Curricular_units_2nd_sem_grade','Curricular_units_2nd_sem_without_evaluations',
     'Unemployment_rate','Inflation_rate','GDP'
 ]
-# Engineered features
-engineered_cols = ['avg_sem_grade','total_units_approved']
-all_features = feature_cols + engineered_cols
-
 # Mapping dicts for dropdown labels
 mappings = {
     'Marital_status': {1:'Single',2:'Married',3:'Widower',4:'Divorced',5:'Union',6:'Separated'},
